@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kanban
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -46,3 +47,6 @@ npm run build
 ```sh
 npm run lint
 ```
+=======
+# Project-Kanban
+>>>>>>> d7ea8ca4d9199d44b61715ba8e78dbde6bc92278
