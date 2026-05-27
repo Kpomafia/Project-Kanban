@@ -54,6 +54,14 @@ const log = (event: any): void => {
       </draggable>
     </div>
   </div>
+      <button v-for='agregar in añadir':key="añadir" :class="[
+        'px-6 py-2 font-medium rounded-full transition-all duration-200',
+        añadir tarea === añadir
+          ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-200'
+          : 'bg-white text-indigo-600 border border-indigo-200 hover:bg-indigo-50'
+      ]"  @click="añadir tarea(añadir)">
+      {{ añadir }}
+      </button>
 </template>
 
 <style scoped>
